@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header/Header';
+import MainSection from './components/MainSection/MainSection';
+
+import { Box, Typography } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={{backgroundColor:"#CE1126"}}>
+      <Header/>
+      <MainSection/>
+      <Typography variant="h4" sx={{ color:"white", textAlign: 'center', mb:"20px"}}>VIGENCIA: 30/04/2024</Typography>
+      <Typography sx={{backgroundColor:"white", textAlign: 'center'}}></Typography>
+    </Box>
   );
 }
 
