@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/qrcode-v2/static/css/main.e6c13ad2.css",
+    "main.js": "/qrcode-v2/static/js/main.586d769d.js",
+    "static/js/787.36247d3e.chunk.js": "/qrcode-v2/static/js/787.36247d3e.chunk.js",
+    "static/media/cruz-roja-logo.png": "/qrcode-v2/static/media/cruz-roja-logo.9b6e52bef78dfe8aee7b.png",
+    "index.html": "/qrcode-v2/index.html",
+    "main.e6c13ad2.css.map": "/qrcode-v2/static/css/main.e6c13ad2.css.map",
+    "main.586d769d.js.map": "/qrcode-v2/static/js/main.586d769d.js.map",
+    "787.36247d3e.chunk.js.map": "/qrcode-v2/static/js/787.36247d3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.586d769d.js"
+  ]
+}
